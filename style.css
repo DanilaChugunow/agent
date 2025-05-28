@@ -1,0 +1,285 @@
+@font-face {
+  font-family: "Google Sans";
+  src: url("fonts/GoogleSans-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Google Sans";
+  src: url("fonts/GoogleSans-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  width: 1380px;
+  margin: 0 auto;
+}
+
+.cont {
+  width: 1420px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+}
+
+p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+header .header-top {
+  display: flex;
+  align-items: center;
+  padding-top: 31px;
+  padding-bottom: 27px;
+}
+header .header-top .container {
+  display: flex;
+}
+header .header-top img {
+  margin-right: 221.5px;
+}
+header .header-top ul {
+  display: flex;
+  margin-right: 163.5px;
+  gap: 50px;
+}
+header .header-top ul li a {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #1e1e1e;
+}
+header .header-top button {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background: #061b3a;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  padding: 17px;
+}
+header .header-top button img {
+  margin-right: 14px;
+}
+header .header-banner {
+  background: linear-gradient(180deg, #b3d2ff 0%, #a7cbff 100%);
+  padding-top: 141px;
+  padding-bottom: 120px;
+}
+header .header-banner .text h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #1e1e1e;
+  max-width: 1006px;
+  margin-bottom: 44px;
+}
+header .header-banner .text p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #1e1e1e;
+  max-width: 644px;
+  margin-bottom: 64px;
+}
+header .header-banner .text ul li {
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #1e1e1e;
+  margin-bottom: 30px;
+}
+header .header-banner .text ul li img {
+  margin-right: 10px;
+}
+header .header-banner .text ul li:last-child {
+  margin-bottom: 85px;
+}
+header .header-banner .text button {
+  display: flex;
+  align-items: center;
+  padding: 20px 28px 18px 22px;
+  border-radius: 5px;
+  background: #fff;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #061b3a;
+}
+header .header-banner .text button img {
+  margin-left: 26px;
+}
+
+.naim {
+  padding-top: 128px;
+  padding-bottom: 73px;
+}
+.naim .naim-z h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 115px;
+}
+.naim .n-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.naim .n-cards .n-card {
+  margin-bottom: 31px;
+  padding: 36px 30px 54px 30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.07);
+  background: #fff;
+  border-radius: 20px;
+}
+.naim .n-cards .n-card h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: #061b3a;
+  margin-bottom: 45px;
+}
+.naim .n-cards .n-card ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 29px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+.naim .n-cards .n-card ul li svg {
+  margin-right: 14.88px;
+}
+.naim .n-cards .n-card ul li::marker {
+  content: url("img/svg/gal.svg");
+}
+.naim .n-cards .n-card ul li:last-child {
+  margin-bottom: 0;
+}
+.naim .n-cards .n-card:hover {
+  transition: 0.5s;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.07);
+  background: #061b3a;
+}
+.naim .n-cards .n-card:hover h3 {
+  color: #fff;
+}
+.naim .n-cards .n-card:hover ul li {
+  color: #fff;
+}
+.naim .n-cards .n-card:hover ul li rect {
+  fill: #fff;
+}
+
+footer {
+  padding-top: 226px;
+  padding-bottom: 200px;
+}
+footer .fot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .fot .fot-info h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #000;
+  max-width: 504px;
+  margin-bottom: 63px;
+}
+footer .fot .fot-info p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000;
+  opacity: 0.4;
+  max-width: 534px;
+}
+footer .fot .fot-input {
+  padding: 49px 48px 41px 49px;
+  background: #061b3a;
+  border-radius: 15px;
+}
+footer .fot .fot-input h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 47px;
+}
+footer .fot .fot-input .fot-inputs {
+  display: flex;
+  margin-bottom: 29px;
+}
+footer .fot .fot-input .fot-inputs input::-moz-placeholder {
+  opacity: 0.4;
+}
+footer .fot .fot-input .fot-inputs input::placeholder {
+  opacity: 0.4;
+}
+footer .fot .fot-input .fot-inputs .name {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  padding: 27px 125px 27px 23px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #fff;
+  margin-right: 18px;
+}
+footer .fot .fot-input .fot-inputs .number {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  padding: 27px 98px 27px 23px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #fff;
+}
+footer .fot .fot-input button {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background: transparent;
+  padding: 27px 28px 27px 23px;
+}
+footer .fot .fot-input button svg {
+  margin-left: 22px;
+}/*# sourceMappingURL=style.css.map */
