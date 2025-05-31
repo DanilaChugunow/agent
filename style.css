@@ -27,6 +27,7 @@ body {
 
 button {
   border: none;
+  cursor: pointer;
 }
 
 p, h1, h2, h3, h4 {
@@ -50,13 +51,12 @@ li {
 }
 
 header .header-top {
-  display: flex;
-  align-items: center;
   padding-top: 31px;
   padding-bottom: 27px;
 }
 header .header-top .container {
   display: flex;
+  align-items: center;
 }
 header .header-top img {
   margin-right: 221.5px;
@@ -155,6 +155,8 @@ header .header-banner .text button img {
   flex-wrap: wrap;
 }
 .naim .n-cards .n-card {
+  transition: 0.5s;
+  cursor: pointer;
   margin-bottom: 31px;
   padding: 36px 30px 54px 30px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.07);
@@ -202,6 +204,164 @@ header .header-banner .text button img {
   fill: #fff;
 }
 
+.client {
+  margin-bottom: 86px;
+}
+.client h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 35px;
+}
+.client p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000;
+  opacity: 0.4;
+  line-height: 33px;
+  max-width: 723px;
+  margin-bottom: 102px;
+}
+.client .spisok {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.client .spisok img:nth-child(5) {
+  padding-left: 170px;
+}
+.client .spisok img:last-child {
+  padding-right: 155px;
+}
+.client .spisok img {
+  transition: 0.5s;
+  opacity: 0.4;
+}
+.client .spisok img:hover {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.vibor {
+  background-color: #f0f9ff;
+  padding-top: 101px;
+  padding-bottom: 93px;
+}
+
+.vibori h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 35px;
+}
+.vibori p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #000;
+  opacity: 0.4;
+  max-width: 740px;
+  line-height: 33px;
+  margin-bottom: 140px;
+}
+.vibori .v-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.vibori .v-cards .v-card {
+  background-color: #fff;
+  padding: 44px 65px 53px 45px;
+  border-radius: 20px;
+  border-left: #ff2424 solid 8px;
+}
+.vibori .v-cards .v-card h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #061b3a;
+  line-height: 33px;
+  max-width: 269px;
+  margin-bottom: 48px;
+}
+.vibori .v-cards .v-card p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  max-width: 340px;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+.rule {
+  display: flex;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  margin-bottom: 196px;
+  margin-top: 196px;
+}
+.rule .dark {
+  background: #061b3a;
+  padding: 85px 148px 78px 98px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.rule .dark h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #fff;
+  line-height: 54px;
+  max-width: 621px;
+  margin-bottom: 30px;
+}
+.rule .dark p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  opacity: 0.4;
+  line-height: 27px;
+  max-width: 407px;
+  margin-bottom: 80px;
+}
+.rule .dark button {
+  border-radius: 5px;
+  background: #fff;
+  padding: 22px 20px 23px 22px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: lowercase;
+  color: #061b3a;
+}
+.rule .dark button img {
+  margin-left: 7px;
+}
+.rule .white {
+  position: relative;
+  padding: 85px 98px 284px 48px;
+}
+.rule .white p {
+  font-family: "Onest", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #061b3a;
+  line-height: 31px;
+  max-width: 381px;
+}
+.rule .white .wh-decor {
+  position: absolute;
+  bottom: 80px;
+  left: 85px;
+}
+
+.special-cards {
+  display: flex;
+}
 footer {
   padding-top: 226px;
   padding-bottom: 200px;
@@ -218,6 +378,7 @@ footer .fot .fot-info h3 {
   color: #000;
   max-width: 504px;
   margin-bottom: 63px;
+  line-height: 54px;
 }
 footer .fot .fot-info p {
   font-family: "Noto Sans", sans-serif;
@@ -225,6 +386,7 @@ footer .fot .fot-info p {
   font-size: 24px;
   color: #000;
   opacity: 0.4;
+  line-height: 33px;
   max-width: 534px;
 }
 footer .fot .fot-input {
@@ -254,7 +416,7 @@ footer .fot .fot-input .fot-inputs .name {
   font-weight: 500;
   font-size: 16px;
   color: #000;
-  padding: 27px 125px 27px 23px;
+  padding: 27px 88px 27px 23px;
   border: 1px solid #000;
   border-radius: 5px;
   background: #fff;
@@ -265,10 +427,15 @@ footer .fot .fot-input .fot-inputs .number {
   font-weight: 500;
   font-size: 16px;
   color: #000;
-  padding: 27px 98px 27px 23px;
+  padding: 27px 71px 27px 23px;
   border: 1px solid #000;
   border-radius: 5px;
   background: #fff;
+}
+footer .fot .fot-input .fot-inputs input[type=number]::-webkit-inner-spin-button,
+footer .fot .fot-input .fot-inputs input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 footer .fot .fot-input button {
   font-family: "Noto Sans", sans-serif;
